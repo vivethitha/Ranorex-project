@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{4DE89B38-07D4-493D-99B9-1E0368F8F9C9}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SubmissionCase_E2E</RootNamespace>
+    <AssemblyName>SubmissionCase_E2E</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>eb65e0a6-a019-4870-ac41-01a87076f5a8</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adverse1_Driver_Attorney_Details.cs">
+      <BoundTo>f6ddd860-c9f8-466e-a8cb-0dd88f31d581</BoundTo>
+      <DependentUpon>Adverse1_Driver_Attorney_Details.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>81b69b20-b67b-47ae-bf93-b5296c67ea84</id>
+    </Compile>
+    <Compile Include="Adverse1_Driver_Attorney_Details.UserCode.cs">
+      <BoundTo>f6ddd860-c9f8-466e-a8cb-0dd88f31d581</BoundTo>
+      <DependentUpon>Adverse1_Driver_Attorney_Details.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fca9c840-6c7e-42ce-bbfe-e1efe7daf3a1</id>
+    </Compile>
+    <Compile Include="Adverse1_Driver_Insurance_Information.cs">
+      <BoundTo>0e9c606c-a8c2-47b9-91b9-aeaf6adae4b0</BoundTo>
+      <DependentUpon>Adverse1_Driver_Insurance_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>750f2aa7-a172-464c-8ae3-0b21f7f5d7b7</id>
+    </Compile>
+    <Compile Include="Adverse1_Driver_Insurance_Information.UserCode.cs">
+      <BoundTo>0e9c606c-a8c2-47b9-91b9-aeaf6adae4b0</BoundTo>
+      <DependentUpon>Adverse1_Driver_Insurance_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>846c7e5e-f383-470b-a3d2-fc8067db127b</id>
+    </Compile>
+    <Compile Include="Adverse1_Driver_License_Information.cs">
+      <BoundTo>e6a5fd93-6d99-45c4-93a1-cbfc11f32f0b</BoundTo>
+      <DependentUpon>Adverse1_Driver_License_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d08f01ea-1034-4860-a135-7a97f862e13c</id>
+    </Compile>
+    <Compile Include="Adverse1_Driver_License_Information.UserCode.cs">
+      <BoundTo>e6a5fd93-6d99-45c4-93a1-cbfc11f32f0b</BoundTo>
+      <DependentUpon>Adverse1_Driver_License_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>12f0f673-ddb4-443e-8b55-1f98c4dcab3d</id>
+    </Compile>
+    <Compile Include="Adverse1_Driver_Personal_Information.cs">
+      <BoundTo>addb337c-597e-49a8-b630-86f995b8eda5</BoundTo>
+      <DependentUpon>Adverse1_Driver_Personal_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>14ed9839-abb6-4618-9515-b7aa729885df</id>
+    </Compile>
+    <Compile Include="Adverse1_Driver_Personal_Information.UserCode.cs">
+      <BoundTo>addb337c-597e-49a8-b630-86f995b8eda5</BoundTo>
+      <DependentUpon>Adverse1_Driver_Personal_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>76156968-fd2a-4716-8da8-7602bc5f2a9d</id>
+    </Compile>
+    <Compile Include="Adverse1_Owner_Attorney_Details.cs">
+      <BoundTo>b5112612-7d76-4681-9a78-a744106aa75e</BoundTo>
+      <DependentUpon>Adverse1_Owner_Attorney_Details.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6dc23aab-bca8-4adc-bb97-128da6f73561</id>
+    </Compile>
+    <Compile Include="Adverse1_Owner_Attorney_Details.UserCode.cs">
+      <BoundTo>b5112612-7d76-4681-9a78-a744106aa75e</BoundTo>
+      <DependentUpon>Adverse1_Owner_Attorney_Details.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>88eb85ea-cd38-4ff4-9138-08206978b7a7</id>
+    </Compile>
+    <Compile Include="Adverse1_Owner_Insurance_Information.cs">
+      <BoundTo>5b921767-9619-4f99-9a81-de1ad835faa8</BoundTo>
+      <DependentUpon>Adverse1_Owner_Insurance_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3451290c-c377-4d22-9adf-dd5565755b66</id>
+    </Compile>
+    <Compile Include="Adverse1_Owner_Insurance_Information.UserCode.cs">
+      <BoundTo>5b921767-9619-4f99-9a81-de1ad835faa8</BoundTo>
+      <DependentUpon>Adverse1_Owner_Insurance_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>61a7636e-411c-4eee-bb59-3dc88ae1d7af</id>
+    </Compile>
+    <Compile Include="Adverse1_Owner_License_Information.cs">
+      <BoundTo>044b7981-d2e6-4781-82c5-9f6f300185c3</BoundTo>
+      <DependentUpon>Adverse1_Owner_License_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>373c9539-383d-42c9-9314-3d125c947dee</id>
+    </Compile>
+    <Compile Include="Adverse1_Owner_License_Information.UserCode.cs">
+      <BoundTo>044b7981-d2e6-4781-82c5-9f6f300185c3</BoundTo>
+      <DependentUpon>Adverse1_Owner_License_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ca7ed404-1b0b-4191-990e-78bd9751b39f</id>
+    </Compile>
+    <Compile Include="Adverse1_Owner_Personal_Information.cs">
+      <BoundTo>458ce9ca-e37b-445c-9c47-243481af9d19</BoundTo>
+      <DependentUpon>Adverse1_Owner_Personal_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ddde2e49-1576-4560-b165-d729f449f974</id>
+    </Compile>
+    <Compile Include="Adverse1_Owner_Personal_Information.UserCode.cs">
+      <BoundTo>458ce9ca-e37b-445c-9c47-243481af9d19</BoundTo>
+      <DependentUpon>Adverse1_Owner_Personal_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>314aeec3-aae8-4dd6-81fb-1fc0347fb938</id>
+    </Compile>
+    <Compile Include="Adverse1_Vehicle_Details.cs">
+      <BoundTo>e1def61e-4c8a-4ff3-a67b-e688ad42f85b</BoundTo>
+      <DependentUpon>Adverse1_Vehicle_Details.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>66bc8c24-2dec-4444-afd8-cfe80eb593a1</id>
+    </Compile>
+    <Compile Include="Adverse1_Vehicle_Details.UserCode.cs">
+      <BoundTo>e1def61e-4c8a-4ff3-a67b-e688ad42f85b</BoundTo>
+      <DependentUpon>Adverse1_Vehicle_Details.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f8fa9d68-859b-439f-8679-65ef267024e5</id>
+    </Compile>
+    <Compile Include="Adverse2_Driver_Attorney_Details.cs">
+      <BoundTo>52bc1cbd-315c-4e07-9b82-a2ebb380c8c5</BoundTo>
+      <DependentUpon>Adverse2_Driver_Attorney_Details.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6ba28b43-a334-4679-9d00-35dcd6cd16bf</id>
+    </Compile>
+    <Compile Include="Adverse2_Driver_Attorney_Details.UserCode.cs">
+      <BoundTo>52bc1cbd-315c-4e07-9b82-a2ebb380c8c5</BoundTo>
+      <DependentUpon>Adverse2_Driver_Attorney_Details.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>64e6fdea-97da-46a3-9b88-04e51f5076df</id>
+    </Compile>
+    <Compile Include="Adverse2_Driver_Insurance_Information.cs">
+      <BoundTo>d65039ec-d953-4a60-89ae-a58fb0c8fed3</BoundTo>
+      <DependentUpon>Adverse2_Driver_Insurance_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b6004271-8484-41d8-a2cf-b0be6d16e774</id>
+    </Compile>
+    <Compile Include="Adverse2_Driver_Insurance_Information.UserCode.cs">
+      <BoundTo>d65039ec-d953-4a60-89ae-a58fb0c8fed3</BoundTo>
+      <DependentUpon>Adverse2_Driver_Insurance_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5d91e471-e9ef-4988-b3ef-f88c150555d7</id>
+    </Compile>
+    <Compile Include="Adverse2_Driver_License_Information.cs">
+      <BoundTo>b981b37f-37bc-4525-8a71-c9e940550906</BoundTo>
+      <DependentUpon>Adverse2_Driver_License_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>160dbe28-2ae4-4963-8747-8dd239d044e9</id>
+    </Compile>
+    <Compile Include="Adverse2_Driver_License_Information.UserCode.cs">
+      <BoundTo>b981b37f-37bc-4525-8a71-c9e940550906</BoundTo>
+      <DependentUpon>Adverse2_Driver_License_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cc0a6ee8-2d7b-4952-bb07-8451e7f8e7b2</id>
+    </Compile>
+    <Compile Include="Adverse2_Driver_Personal_Information.cs">
+      <BoundTo>4e69d06b-81dc-403d-abbe-739c3a437df1</BoundTo>
+      <DependentUpon>Adverse2_Driver_Personal_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f889f567-b977-4264-9879-5f1153e65981</id>
+    </Compile>
+    <Compile Include="Adverse2_Driver_Personal_Information.UserCode.cs">
+      <BoundTo>4e69d06b-81dc-403d-abbe-739c3a437df1</BoundTo>
+      <DependentUpon>Adverse2_Driver_Personal_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cb01cb88-457e-4eea-bff7-074b1427e542</id>
+    </Compile>
+    <Compile Include="Adverse2_Vehicle_Details.cs">
+      <BoundTo>6b316924-f682-43f9-a16f-0948aeecc087</BoundTo>
+      <DependentUpon>Adverse2_Vehicle_Details.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4ba243fd-3f52-4dca-b807-dfaf7190a8a1</id>
+    </Compile>
+    <Compile Include="Adverse2_Vehicle_Details.UserCode.cs">
+      <BoundTo>6b316924-f682-43f9-a16f-0948aeecc087</BoundTo>
+      <DependentUpon>Adverse2_Vehicle_Details.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fd0de036-d017-4b36-addc-8b46272eb8df</id>
+    </Compile>
+    <Compile Include="AdverseType.cs">
+      <BoundTo>98180e37-9465-4b3b-9c92-14d7846deeaf</BoundTo>
+      <DependentUpon>AdverseType.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fe996b64-9a15-4d6e-8bf9-ce347e0c560c</id>
+    </Compile>
+    <Compile Include="AdverseType.UserCode.cs">
+      <BoundTo>98180e37-9465-4b3b-9c92-14d7846deeaf</BoundTo>
+      <DependentUpon>AdverseType.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f3b91fe8-f528-46bd-bdaf-d43a1c13db4a</id>
+    </Compile>
+    <Compile Include="Adverse_Other_Information.cs">
+      <BoundTo>ee330483-1649-4bb1-95e1-73d6e0b6276c</BoundTo>
+      <DependentUpon>Adverse_Other_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8d54f76a-0d8d-45cf-945e-730588730d2f</id>
+    </Compile>
+    <Compile Include="Adverse_Other_Information.UserCode.cs">
+      <BoundTo>ee330483-1649-4bb1-95e1-73d6e0b6276c</BoundTo>
+      <DependentUpon>Adverse_Other_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>00bbba72-d35a-4f65-a3b6-9f00cbce676c</id>
+    </Compile>
+    <Compile Include="Adverse_Other_Insurance_Info.cs">
+      <BoundTo>fe385e93-59aa-4196-af57-36fcb7a8a4f7</BoundTo>
+      <DependentUpon>Adverse_Other_Insurance_Info.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>818b6ffb-15ac-4e15-8af7-620fa6ed79cc</id>
+    </Compile>
+    <Compile Include="Adverse_Other_Insurance_Info.UserCode.cs">
+      <BoundTo>fe385e93-59aa-4196-af57-36fcb7a8a4f7</BoundTo>
+      <DependentUpon>Adverse_Other_Insurance_Info.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>24265898-9751-46c4-8cd2-1f90076ae951</id>
+    </Compile>
+    <Compile Include="Adverse_Other_Personal_Info.cs">
+      <BoundTo>65fb7807-4fe5-4201-b62e-6c033ae1118a</BoundTo>
+      <DependentUpon>Adverse_Other_Personal_Info.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b386d369-2b54-473f-b059-39772922d5bb</id>
+    </Compile>
+    <Compile Include="Adverse_Other_Personal_Info.UserCode.cs">
+      <BoundTo>65fb7807-4fe5-4201-b62e-6c033ae1118a</BoundTo>
+      <DependentUpon>Adverse_Other_Personal_Info.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d0b758ca-89de-4c2a-abf6-85f00292e906</id>
+    </Compile>
+    <Compile Include="Arbitration_Information.cs">
+      <BoundTo>e80e8367-698e-4e27-9eec-17bc14dbb87f</BoundTo>
+      <DependentUpon>Arbitration_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>028c0772-2b53-42ad-81ea-1a2af8bf8f6b</id>
+    </Compile>
+    <Compile Include="Arbitration_Information.UserCode.cs">
+      <BoundTo>e80e8367-698e-4e27-9eec-17bc14dbb87f</BoundTo>
+      <DependentUpon>Arbitration_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6e1fc855-92d4-4b31-9de2-c8339d0014f8</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>2b0033ba-7b44-48af-8da5-26733dca4482</id>
+    </Compile>
+    <Compile Include="ClaimInformation_FooterMappings.cs">
+      <BoundTo>9068abf5-6a53-4f6f-a67c-4815ccf97c71</BoundTo>
+      <DependentUpon>ClaimInformation_FooterMappings.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9c1dd63b-4a73-46ae-a977-85d525070142</id>
+    </Compile>
+    <Compile Include="ClaimInformation_FooterMappings.UserCode.cs">
+      <BoundTo>9068abf5-6a53-4f6f-a67c-4815ccf97c71</BoundTo>
+      <DependentUpon>ClaimInformation_FooterMappings.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2d4e01df-8f3d-4a89-bc5c-8c04005b22e0</id>
+    </Compile>
+    <Compile Include="ClaimInformation_Screen_Arb.cs">
+      <BoundTo>a96326e8-291d-42b2-8cb2-8bd9031aeb42</BoundTo>
+      <DependentUpon>ClaimInformation_Screen_Arb.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c4674c03-47fc-450e-b801-2c1885f89360</id>
+    </Compile>
+    <Compile Include="ClaimInformation_Screen_Arb.UserCode.cs">
+      <BoundTo>a96326e8-291d-42b2-8cb2-8bd9031aeb42</BoundTo>
+      <DependentUpon>ClaimInformation_Screen_Arb.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2b4a7a3e-fc2a-4371-bcf0-f29d3c0b9d42</id>
+    </Compile>
+    <Compile Include="ClaimInformation_Screen_Ins.cs">
+      <BoundTo>677b5d63-a5d7-48d2-9d39-ede8a0342712</BoundTo>
+      <DependentUpon>ClaimInformation_Screen_Ins.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9306f8e3-6b3e-4f1f-8aec-15bc75be82ec</id>
+    </Compile>
+    <Compile Include="ClaimInformation_Screen_Ins.UserCode.cs">
+      <BoundTo>677b5d63-a5d7-48d2-9d39-ede8a0342712</BoundTo>
+      <DependentUpon>ClaimInformation_Screen_Ins.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>375b0c81-fb61-4e33-b82f-e8bdadb7f3e4</id>
+    </Compile>
+    <Compile Include="ClaimInformation_Screen_Litigation.cs">
+      <BoundTo>e5f05a04-8600-418e-bd83-509f1e70725d</BoundTo>
+      <DependentUpon>ClaimInformation_Screen_Litigation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>37f5898a-dc63-442f-95e7-5526fbb17b63</id>
+    </Compile>
+    <Compile Include="ClaimInformation_Screen_Litigation.UserCode.cs">
+      <BoundTo>e5f05a04-8600-418e-bd83-509f1e70725d</BoundTo>
+      <DependentUpon>ClaimInformation_Screen_Litigation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>22f27027-627c-4975-9fc0-0982056c7925</id>
+    </Compile>
+    <Compile Include="ClaimInformation_Screen_Uninsured.cs">
+      <BoundTo>8e7a42eb-cdd2-4be2-9e3f-fc554be5204b</BoundTo>
+      <DependentUpon>ClaimInformation_Screen_Uninsured.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8da60176-4736-4525-93cc-70d0a6f211b6</id>
+    </Compile>
+    <Compile Include="ClaimInformation_Screen_Uninsured.UserCode.cs">
+      <BoundTo>8e7a42eb-cdd2-4be2-9e3f-fc554be5204b</BoundTo>
+      <DependentUpon>ClaimInformation_Screen_Uninsured.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f2ae0be0-fcff-4e81-956d-0238b104e0c5</id>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>fd8f30db-7cec-4711-96b5-4cb5515935db</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1f4eaf84-025c-407f-a9df-f05dfb2e1764</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>fd8f30db-7cec-4711-96b5-4cb5515935db</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>45199167-9049-4589-8281-2dfe14676041</id>
+    </Compile>
+    <Compile Include="Create_NewClaim.cs">
+      <BoundTo>fda53fb9-4704-4c9e-8026-d416c58a602c</BoundTo>
+      <DependentUpon>Create_NewClaim.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e041be16-57a6-41c0-a041-83ca20c39326</id>
+    </Compile>
+    <Compile Include="Create_NewClaim.UserCode.cs">
+      <BoundTo>fda53fb9-4704-4c9e-8026-d416c58a602c</BoundTo>
+      <DependentUpon>Create_NewClaim.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>34c9243c-58c7-4e35-b832-d315d14b78fc</id>
+    </Compile>
+    <Compile Include="DocUpload_Screen.cs">
+      <BoundTo>769850fd-3ad2-449d-a4be-c0b48cd374f3</BoundTo>
+      <DependentUpon>DocUpload_Screen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f973d6ca-8183-4368-bdc9-75765ff2dc4f</id>
+    </Compile>
+    <Compile Include="DocUpload_Screen.UserCode.cs">
+      <BoundTo>769850fd-3ad2-449d-a4be-c0b48cd374f3</BoundTo>
+      <DependentUpon>DocUpload_Screen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6b515cd2-b316-4aeb-a8a6-ecfbc03b22b4</id>
+    </Compile>
+    <Compile Include="InsuredDetails_Agent_Information.cs">
+      <BoundTo>f8202d3f-53db-40db-a9fc-3117074ac7e3</BoundTo>
+      <DependentUpon>InsuredDetails_Agent_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>885d616c-7d03-4ead-9055-cb5f417cf249</id>
+    </Compile>
+    <Compile Include="InsuredDetails_Agent_Information.UserCode.cs">
+      <BoundTo>f8202d3f-53db-40db-a9fc-3117074ac7e3</BoundTo>
+      <DependentUpon>InsuredDetails_Agent_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8539fbdb-af65-432b-ae65-04ce94d1fa2d</id>
+    </Compile>
+    <Compile Include="InsuredDetails_Attorney_Information.cs">
+      <BoundTo>6875645c-b88e-4bc5-a930-7af04d1a8408</BoundTo>
+      <DependentUpon>InsuredDetails_Attorney_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>590be99d-4b11-40fd-9914-d9bb982001ed</id>
+    </Compile>
+    <Compile Include="InsuredDetails_Attorney_Information.UserCode.cs">
+      <BoundTo>6875645c-b88e-4bc5-a930-7af04d1a8408</BoundTo>
+      <DependentUpon>InsuredDetails_Attorney_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6cdf6088-bc41-4057-ab4d-a6af82b35380</id>
+    </Compile>
+    <Compile Include="InsuredDetails_Company_Information.cs">
+      <BoundTo>bce70a54-3887-4624-83df-2311a8061634</BoundTo>
+      <DependentUpon>InsuredDetails_Company_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>11bfd800-c5a2-417a-89e3-a4b05c9b709e</id>
+    </Compile>
+    <Compile Include="InsuredDetails_Company_Information.UserCode.cs">
+      <BoundTo>bce70a54-3887-4624-83df-2311a8061634</BoundTo>
+      <DependentUpon>InsuredDetails_Company_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b2517db9-00a3-4537-9aee-8b0a9dbc47e8</id>
+    </Compile>
+    <Compile Include="InsuredDetails_Personal_Information.cs">
+      <BoundTo>fad2b9d8-9b50-4bba-8e0d-f25a0023c9f8</BoundTo>
+      <DependentUpon>InsuredDetails_Personal_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fca17281-5767-414e-b5f5-749cb158ecdd</id>
+    </Compile>
+    <Compile Include="InsuredDetails_Personal_Information.UserCode.cs">
+      <BoundTo>fad2b9d8-9b50-4bba-8e0d-f25a0023c9f8</BoundTo>
+      <DependentUpon>InsuredDetails_Personal_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>788d8b61-99b3-4651-abf6-382a9c2b1f98</id>
+    </Compile>
+    <Compile Include="InsuredDetails_Vehicle_Information.cs">
+      <BoundTo>8f908738-2b9a-4224-9fca-ca98d563e57e</BoundTo>
+      <DependentUpon>InsuredDetails_Vehicle_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>04c54c42-1d38-45fb-a4c3-56286f8d8b2d</id>
+    </Compile>
+    <Compile Include="InsuredDetails_Vehicle_Information.UserCode.cs">
+      <BoundTo>8f908738-2b9a-4224-9fca-ca98d563e57e</BoundTo>
+      <DependentUpon>InsuredDetails_Vehicle_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>08420803-d003-4730-b86d-20108bfabb3f</id>
+    </Compile>
+    <Compile Include="Login.cs">
+      <BoundTo>98f655a0-596d-4d85-a39e-ffa9008f6318</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b7ddf3be-45b8-49f0-a213-6db36df0ae56</id>
+    </Compile>
+    <Compile Include="Login.UserCode.cs">
+      <BoundTo>98f655a0-596d-4d85-a39e-ffa9008f6318</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f9d29cea-8c93-4209-b0ec-cf29e50cb480</id>
+    </Compile>
+    <Compile Include="Logout.cs">
+      <BoundTo>12eaa0d7-2f89-4d0d-914e-bb1e5c748cb8</BoundTo>
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b17e9a91-022c-40b8-b09a-3b3c51d0df72</id>
+    </Compile>
+    <Compile Include="Logout.UserCode.cs">
+      <BoundTo>12eaa0d7-2f89-4d0d-914e-bb1e5c748cb8</BoundTo>
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e4f95a3a-2d06-4b9f-a4bb-b428b34970ca</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>1a85d2fd-3d06-409c-8b33-edc85d297112</id>
+    </Compile>
+    <Compile Include="OpenBrowser.cs">
+      <BoundTo>eeecae4e-54f7-43a9-989c-e5d063abbda5</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d90f3f73-25a8-4c25-836c-0525a1767ce6</id>
+    </Compile>
+    <Compile Include="OpenBrowser.UserCode.cs">
+      <BoundTo>eeecae4e-54f7-43a9-989c-e5d063abbda5</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>96ecc61e-81dc-4aa8-94f8-b261f0cb6d2c</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>63a76074-1680-435f-b8f6-76699b0b891b</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>45e71835-3966-417b-8a98-c8221e2b1f4f</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>63a76074-1680-435f-b8f6-76699b0b891b</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2d44e525-50ef-4005-bf96-1495887b8c1a</id>
+    </Compile>
+    <Compile Include="Review_ClaimInformation_Page.cs">
+      <BoundTo>2923269e-dd97-4494-851a-9d4a6b33abb2</BoundTo>
+      <DependentUpon>Review_ClaimInformation_Page.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a926816a-9827-445c-917d-77ec35094685</id>
+    </Compile>
+    <Compile Include="Review_ClaimInformation_Page.UserCode.cs">
+      <BoundTo>2923269e-dd97-4494-851a-9d4a6b33abb2</BoundTo>
+      <DependentUpon>Review_ClaimInformation_Page.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>75df9f79-66d0-40d0-b01b-81e6db8fcc19</id>
+    </Compile>
+    <Compile Include="SubmissionCase_E2ERepository.cs">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <DependentUpon>SubmissionCase_E2ERepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>86aae5ed-b279-48c6-bc1b-6940daace24e</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Adverse_Details.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>286c499f-ea04-4a80-bf37-967429f5c9dd</id>
+    </Content>
+    <None Include="Adverse1_Driver_Attorney_Details.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>f6ddd860-c9f8-466e-a8cb-0dd88f31d581</id>
+      <recordtableid>6f51bf3d-5f83-459c-bd26-92ad0a81e57b</recordtableid>
+    </None>
+    <None Include="Adverse1_Driver_Insurance_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>0e9c606c-a8c2-47b9-91b9-aeaf6adae4b0</id>
+      <recordtableid>634d1a6d-2443-4de7-a76b-09cf1e83720b</recordtableid>
+    </None>
+    <None Include="Adverse1_Driver_License_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>e6a5fd93-6d99-45c4-93a1-cbfc11f32f0b</id>
+      <recordtableid>34538f6b-3f56-4ad8-b434-13d951522727</recordtableid>
+    </None>
+    <None Include="Adverse1_Driver_Personal_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>addb337c-597e-49a8-b630-86f995b8eda5</id>
+      <recordtableid>0b05bf14-ad88-44f9-88f4-b2da4d0dd516</recordtableid>
+    </None>
+    <None Include="Adverse1_Owner_Attorney_Details.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>b5112612-7d76-4681-9a78-a744106aa75e</id>
+      <recordtableid>31fa9098-09cf-43b3-9f03-6452948e6c34</recordtableid>
+    </None>
+    <None Include="Adverse1_Owner_Insurance_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>5b921767-9619-4f99-9a81-de1ad835faa8</id>
+      <recordtableid>31244cf1-3107-4624-8a29-0f7f1368c3bc</recordtableid>
+    </None>
+    <None Include="Adverse1_Owner_License_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>044b7981-d2e6-4781-82c5-9f6f300185c3</id>
+      <recordtableid>c179ed09-8eab-4171-83cb-1bf708171bd5</recordtableid>
+    </None>
+    <None Include="Adverse1_Owner_Personal_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>458ce9ca-e37b-445c-9c47-243481af9d19</id>
+      <recordtableid>69fb4d72-9230-46f6-aee8-8c0d938f7ad1</recordtableid>
+    </None>
+    <None Include="Adverse1_Vehicle_Details.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>e1def61e-4c8a-4ff3-a67b-e688ad42f85b</id>
+      <recordtableid>14f92eb6-f7ec-438a-b22f-749b8ce6bc55</recordtableid>
+    </None>
+    <None Include="Adverse2_Driver_Attorney_Details.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>52bc1cbd-315c-4e07-9b82-a2ebb380c8c5</id>
+      <recordtableid>c251cc70-a9d7-4b78-8ed0-0e6d8bdaa72f</recordtableid>
+    </None>
+    <None Include="Adverse2_Driver_Insurance_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>d65039ec-d953-4a60-89ae-a58fb0c8fed3</id>
+      <recordtableid>99c02ef6-aa09-411d-ab89-fc8533803b21</recordtableid>
+    </None>
+    <None Include="Adverse2_Driver_License_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>b981b37f-37bc-4525-8a71-c9e940550906</id>
+      <recordtableid>92c013e3-8270-4233-a9d1-9e90d208b1dc</recordtableid>
+    </None>
+    <None Include="Adverse2_Driver_Personal_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>4e69d06b-81dc-403d-abbe-739c3a437df1</id>
+      <recordtableid>78b8f55d-302f-4853-957c-9bdbff64e82a</recordtableid>
+    </None>
+    <None Include="Adverse2_Vehicle_Details.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>6b316924-f682-43f9-a16f-0948aeecc087</id>
+      <recordtableid>0b2a14d5-d448-4afa-a6a1-38aa6a6e3073</recordtableid>
+    </None>
+    <None Include="AdverseType.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>98180e37-9465-4b3b-9c92-14d7846deeaf</id>
+      <recordtableid>e86beaa0-55ea-4847-81d4-8968dd9a9363</recordtableid>
+    </None>
+    <None Include="Adverse_Other_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>ee330483-1649-4bb1-95e1-73d6e0b6276c</id>
+      <recordtableid>7bee7048-698f-44e5-b7fa-6d53a5b5a324</recordtableid>
+    </None>
+    <None Include="Adverse_Other_Insurance_Info.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>fe385e93-59aa-4196-af57-36fcb7a8a4f7</id>
+      <recordtableid>5a45c923-9e73-4ac5-8849-4d8f27de2aa2</recordtableid>
+    </None>
+    <None Include="Adverse_Other_Personal_Info.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>65fb7807-4fe5-4201-b62e-6c033ae1118a</id>
+      <recordtableid>f71b6cb0-9e7a-4a72-beb1-ceb483f57a48</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>dada1df7-3e43-42e2-b75e-0d01a78b6ab6</id>
+    </None>
+    <Content Include="ClaimDetails_Arbitration.xlsx">
+      <Link>ClaimDetails_Arbitration.xlsx</Link>
+      <BoundTo>2fb52081-bab1-4ca9-aedd-599c5acfad2a</BoundTo>
+      <DependentUpon>SubmissionCase_E2E.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f1211d9d-ce4f-4d26-9de6-ae5a84ca6509</id>
+    </Content>
+    <None Include="Arbitration_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>e80e8367-698e-4e27-9eec-17bc14dbb87f</id>
+      <recordtableid>f859ad00-b6ba-4d10-b4bc-043e0b7b83b6</recordtableid>
+    </None>
+    <Content Include="ClaimDetails_Insurance.xlsx">
+      <Link>ClaimDetails_Insurance.xlsx</Link>
+      <BoundTo>2fb52081-bab1-4ca9-aedd-599c5acfad2a</BoundTo>
+      <DependentUpon>SubmissionCase_E2E.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7e2c042b-c12e-4cc2-939c-1f41d186d7f9</id>
+    </Content>
+    <Content Include="ClaimDetails_UM.xlsx">
+      <Link>ClaimDetails_UM.xlsx</Link>
+      <BoundTo>2fb52081-bab1-4ca9-aedd-599c5acfad2a</BoundTo>
+      <DependentUpon>SubmissionCase_E2E.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>3d503091-6d17-4f39-961b-888e64f710a9</id>
+    </Content>
+    <Content Include="ClaimDetails_Litigation.xlsx">
+      <Link>ClaimDetails_Litigation.xlsx</Link>
+      <BoundTo>2fb52081-bab1-4ca9-aedd-599c5acfad2a</BoundTo>
+      <DependentUpon>SubmissionCase_E2E.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9e549026-0477-4b33-977f-2c9ebcf5d6c3</id>
+    </Content>
+    <None Include="ClaimInformation_FooterMappings.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>9068abf5-6a53-4f6f-a67c-4815ccf97c71</id>
+      <recordtableid>c21fdcf8-69a3-4d5e-a2f8-3275bbfc9448</recordtableid>
+    </None>
+    <None Include="ClaimInformation_Screen_Arb.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>a96326e8-291d-42b2-8cb2-8bd9031aeb42</id>
+      <recordtableid>176fe831-14ad-4205-9679-b34a1228b077</recordtableid>
+    </None>
+    <None Include="ClaimInformation_Screen_Ins.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>677b5d63-a5d7-48d2-9d39-ede8a0342712</id>
+      <recordtableid>92873fce-0e4f-4aec-a140-627c7454e415</recordtableid>
+    </None>
+    <None Include="ClaimInformation_Screen_Litigation.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>e5f05a04-8600-418e-bd83-509f1e70725d</id>
+      <recordtableid>65a96226-dd28-45dd-ab64-3fff524efa02</recordtableid>
+    </None>
+    <None Include="ClaimInformation_Screen_Uninsured.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>8e7a42eb-cdd2-4be2-9e3f-fc554be5204b</id>
+      <recordtableid>e7489ad3-d1f0-4f60-9c91-af1245a15a19</recordtableid>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>fd8f30db-7cec-4711-96b5-4cb5515935db</id>
+      <recordtableid>eff36a89-f33b-4dc3-acc9-d96259aa940f</recordtableid>
+    </None>
+    <None Include="Create_NewClaim.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>fda53fb9-4704-4c9e-8026-d416c58a602c</id>
+      <recordtableid>1221b873-7998-47e1-a622-90abeb793210</recordtableid>
+    </None>
+    <None Include="DocUpload_Screen.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>769850fd-3ad2-449d-a4be-c0b48cd374f3</id>
+      <recordtableid>1bba4b94-74bf-487d-801d-45aed35114da</recordtableid>
+    </None>
+    <None Include="InsuredDetails_Agent_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>f8202d3f-53db-40db-a9fc-3117074ac7e3</id>
+      <recordtableid>27443c57-0776-4da9-8040-fd51e64c91e9</recordtableid>
+    </None>
+    <None Include="InsuredDetails_Attorney_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>6875645c-b88e-4bc5-a930-7af04d1a8408</id>
+      <recordtableid>5bc21814-3a7d-477f-b47a-b188fd606eec</recordtableid>
+    </None>
+    <None Include="InsuredDetails_Company_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>bce70a54-3887-4624-83df-2311a8061634</id>
+      <recordtableid>374c9e88-7249-446b-b73a-40d27a5542f6</recordtableid>
+    </None>
+    <None Include="InsuredDetails_Personal_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>fad2b9d8-9b50-4bba-8e0d-f25a0023c9f8</id>
+      <recordtableid>dc34dd9a-b09f-4d7e-a5bc-06a6d4756bec</recordtableid>
+    </None>
+    <None Include="InsuredDetails_Vehicle_Information.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>8f908738-2b9a-4224-9fca-ca98d563e57e</id>
+      <recordtableid>a83c2f1e-a2a6-4806-a724-e1e4a5c7de17</recordtableid>
+    </None>
+    <None Include="Login.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>98f655a0-596d-4d85-a39e-ffa9008f6318</id>
+      <recordtableid>0e85b462-29d5-48e6-8a84-d307e397412a</recordtableid>
+    </None>
+    <None Include="Logout.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>12eaa0d7-2f89-4d0d-914e-bb1e5c748cb8</id>
+      <recordtableid>b075b8c8-69c6-4a0c-bbdc-a5340190172c</recordtableid>
+    </None>
+    <None Include="OpenBrowser.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>eeecae4e-54f7-43a9-989c-e5d063abbda5</id>
+      <recordtableid>ed04540b-6ff1-4c76-884c-7e0f880ad809</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>63a76074-1680-435f-b8f6-76699b0b891b</id>
+      <recordtableid>3796aa58-fbbc-4d22-ad13-946e13c215e8</recordtableid>
+    </None>
+    <None Include="Review_ClaimInformation_Page.rxrec">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <id>2923269e-dd97-4494-851a-9d4a6b33abb2</id>
+      <recordtableid>05d627ea-34b3-4488-a2aa-525950474579</recordtableid>
+    </None>
+    <None Include="SubmissionCase_E2ERepository.rximg">
+      <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
+      <DependentUpon>SubmissionCase_E2ERepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>689a990d-e02c-4a88-87de-5f75df5c2d61</id>
+    </None>
+    <None Include="SubmissionCase_E2ERepository.rxrep">
+      <id>eb65e0a6-a019-4870-ac41-01a87076f5a8</id>
+      <repoid>d8c4034f-596c-4755-95c6-cc2d7e4fcd20</repoid>
+      <reporootid>edc9576f-e82e-4618-86bf-a3926f9358cd</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SubmissionCase_E2E.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>2fb52081-bab1-4ca9-aedd-599c5acfad2a</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{E0FA8C41-06D7-4846-A942-9726A5C77736}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7bee7048-698f-44e5-b7fa-6d53a5b5a324"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Adverse_Other_Information"
+	namespace="SubmissionCase_E2E">
+	</codegen>
+	<variables>
+		<var
+		id="4a0da57f-7e90-4a58-b3a5-013c85891946"
+		name="COL">
+		</var>
+	</variables>
+	<recorditems>
+		<keysequenceitem
+		KeySequence="Head on collisions"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="74531f7d-a1d1-4601-801e-f17e359623f2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="254d0b22-152e-41e6-b886-9acde902c444"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="567,469,450,48"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						autocomplete_input ac_
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						2bad8b4b
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						ac_ autocomplete_input
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Head on collisions
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						$PpyWorkPage$pAdverseInfo$l3$pOtherInfo$pCauseofLoss
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Please select any of the listed values..
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Head on collisions
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="autocapitalize"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="autocorrect"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-attributes"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-back-nav-id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change-lazy"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-changed"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-old-value"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='2bad8b4b' and @name='$PpyWorkPage$pAdverseInfo$l3$pOtherInfo$pCauseofLoss']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Down}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="74531f7d-a1d1-4601-801e-f17e359623f2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="254d0b22-152e-41e6-b886-9acde902c444"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="567,469,450,48"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						autocomplete_input ac_
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						2bad8b4b
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						ac_ autocomplete_input
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Head on collisions
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						$PpyWorkPage$pAdverseInfo$l3$pOtherInfo$pCauseofLoss
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Please select any of the listed values..
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Head on collisions
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="autocapitalize"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="autocorrect"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-attributes"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-back-nav-id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change-lazy"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-changed"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-old-value"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='2bad8b4b' and @name='$PpyWorkPage$pAdverseInfo$l3$pOtherInfo$pCauseofLoss']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="e3007367-5917-4616-b106-36e8901ecf78">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="e3007367-5917-4616-b106-36e8901ecf78">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="Accident description"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="9e40edd9-a594-44d3-975a-d82160872607">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fbf53143-2513-4fca-853f-4c51bca91342"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, textareatag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="textareatag"
+				rect="193,369,735,163"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						TANORM textAreaStyle
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						AccidentDescription
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						textarea
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="cols"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						$PpyWorkPage$pAdverseInfo$l3$pOtherInfo$pAccidentDescription
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="rows"
+					type="System.String">
+						5
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-col"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-exp"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@caption='Pega Case Manager Portal' and @page='!STANDARD' and @path='/prweb/Han6hz33OT_Z0LQfubLSJZ1APESeLOCT*/!STANDARD']//iframe[#'PegaGadget1Ifr']//textarea[#'AccidentDescription']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="40f9e042-b5e1-4436-8c33-c55e2e381219">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAEBAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC7Ld3U
+qIUeSN3t1kjWKMPuY9c5BwOnp9auXkk1vp25H/fDaNzAHkkDnFV5bV0mYLbzOgRUiMM2zaAOh+YE
+8/WrqwF7RIro+YwVd5z1Ixz+YoAqXMlzFNDbpJNIWVnZ0Ee7jHAzgY59zSRveyzQQyyGBjG7PtCl
+jhgAe4HBq9PbxThfMBypyrKxUj6Ec0iW8UbKyg7lUqCWJOCcnrQBniS4n+xg3MiMZZI2KBRu27uc
+EH0p093Ks4eFpmjEyxNlU8vqAf8AazVxrOBowhQgK5cFXIIJzkgg57mmmwtjJvMZJ3b8b2xuznOM
+4zQBHYhmguQrbWM0mD6HNRJfSuiMPvRQs8ygdWHGPzB/Kr8cSRBggxuYsee5602K3hikkeNAGlOX
+PqaAMwyXr2cjSLK0T27li/lgA4427TnH1qZGngNurzGRZYmypUYUgA8cfzzVpbG3RWVVbaylSvmN
+tAPUAZwPwqRreJihK/6sELyeARih9QRQtHmuBDCkxgVbZHPlquWJ+owAMdh3pss8kEt0IgxeS4RM
+gDIyg6Z4z9autY27LGNrL5a7FKOykD0yDkinNawOsismRIQW5PJAAB9ugoAqBtQ8hxtlGHGGPl+Y
+Vxz0+XOf0q3ZyCS3BEjyYJBLrtYH0IwKT7HF5ezMuM7s+c+7P1zmpIYUgj2RjC5zySST7k9aAH0U
+UUAFFFFABRRRQAUUUyaVIIjJI2FFCVwFb7yfX+hp1ZVlePd6nk8IFO1fStWrnBwdmTGSkroKKKKg
+oKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKAG7T/fb9KNp/vt+lOooAbtP99v0o2n++36U6igBu0/32/Sjaf77
+fpTqKAG7T/fb9KNp/vt+lOooAbtP99v0o2n++36U6igBu0/32/Sjaf77fpTqKAG7T/fb9KNp/vt+
+lOooAbtP99v0o2n++36U6igBu0/32/Sjaf77fpTqKAG7T/fb9KNp/vt+lOooAbtP99v0qKeziuce
+cWbHTnFT0U02tUJpPcr29jBbyb4lIbGOTmrFFFDberBJLYKKKKQwooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKp/wBow/34/wDvsUf2jD/fj/77FZ+1j5/c/wDIdi5RVP8AtGH+/H/32KP7Rh/vx/8AfYo9rHz+
+5/5BYuUVT/tGH+/H/wB9ij+0Yf78f/fYo9rHz+5/5BYuUVT/ALRh/vx/99ij+0Yf78f/AH2KPax8
+/uf+QWLlFU/7Rh/vx/8AfYo/tGH+/H/32KPax8/uf+QWLlFU/wC0Yf78f/fYo/tGH+/H/wB9ij2s
+fP7n/kFi5RVP+0Yf78f/AH2KP7Rh/vx/99ij2sfP7n/kFi5RVP8AtGH+/H/32KP7Rh/vx/8AfYo9
+rHz+5/5BYuUVT/tGH+/H/wB9ij+0Yf78f/fYo9rHz+5/5BYuUVT/ALRh/vx/99ij+0Yf78f/AH2K
+Pax8/uf+QWLlFU/7Rh/vx/8AfYo/tGH+/H/32KPax8/uf+QWLlFU/wC0Yf78f/fYo/tGH+/H/wB9
+ij2sfP7n/kFi5RVP+0Yf78f/AH2KP7Rh/vx/99ij2sfP7n/kFi5RVP8AtGH+/H/32KP7Rh/vx/8A
+fYo9rHz+5/5BYuUVT/tGH+/H/wB9ij+0Yf78f/fYo9rHz+5/5BYuUVT/ALRh/vx/99ij+0Yf78f/
+AH2KPax8/uf+QWLlFU/7Rh/vx/8AfYo/tGH+/H/32KPax8/uf+QWLlFU/wC0Yf78f/fYo/tGH+/H
+/wB9ij2sfP7n/kFi5RVP+0Yf78f/AH2KP7Rh/vx/99ij2sfP7n/kFi5RVP8AtGH+/H/32KP7Rh/v
+x/8AfYo9rHz+5/5BYuUVT/tGH+/H/wB9ij+0Yf78f/fYo9rHz+5/5BYuUVT/ALRh/vx/99ij+0Yf
+78f/AH2KPax8/uf+QWLlFU/7Rh/vx/8AfYo/tGH+/H/32KPax8/uf+QWLlFU/wC0Yf78f/fYo/tG
+H+/H/wB9ij2sfP7n/kFi5RVP+0Yf78f/AH2KP7Rh/vx/99ij2sfP7n/kFi5RVP8AtGH+/H/32KP7
+Rh/vx/8AfYo9rHz+5/5BYuUVT/tGH+/H/wB9ij+0Yf78f/fYo9rHz+5/5BYuUVT/ALRh/vx/99ij
++0Yf78f/AH2KPax8/uf+QWLlFU/7Rh/vx/8AfYo/tGH+/H/32KPax8/uf+QWLlFU/wC0Yf78f/fY
+o/tGH+/H/wB9ij2sfP7n/kFi5RVP+0Yf78f/AH2KP7Rh/vx/99ij2sfP7n/kFi5RVP8AtGH+/H/3
+2KKPax8/uf8AkFi5RRRWggooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAz/sc3/Pa4/wC/po+xzf8APa4/
+7+mtCis+SX87Hp2M/wCxzf8APa4/7+mj7HN/z2uP+/prQoo5JfzsNOxn/Y5v+e1x/wB/TR9jm/57
+XH/f01oUUckv52GnYz/sc3/Pa4/7+mj7HN/z2uP+/prQoo5JfzsNOxn/AGOb/ntcf9/TR9jm/wCe
+1x/39NaFFHJL+dhp2M/7HN/z2uP+/po+xzf89rj/AL+mtCijkl/Ow07Gf9jm/wCe1x/39NH2Ob/n
+tcf9/TWhRRyS/nYadjP+xzf89rj/AL+mj7HN/wA9rj/v6a0KKOSX87DTsZ/2Ob/ntcf9/TR9jm/5
+7XH/AH9NaFFHJL+dhp2M/wCxzf8APa4/7+mj7HN/z2uP+/prQoo5JfzsNOxn/Y5v+e1x/wB/TR9j
+m/57XH/f01oUUckv52GnYz/sc3/Pa4/7+mj7HN/z2uP+/prQoo5JfzsNOxn/AGOb/ntcf9/TR9jm
+/wCe1x/39NaFFHJL+dhp2M/7HN/z2uP+/po+xzf89rj/AL+mtCijkl/Ow07Gf9jm/wCe1x/39NH2
+Ob/ntcf9/TWhRRyS/nYadjP+xzf89rj/AL+mj7HN/wA9rj/v6a0KKOSX87DTsZ/2Ob/ntcf9/TR9
+jm/57XH/AH9NaFFHJL+dhp2M/wCxzf8APa4/7+mj7HN/z2uP+/prQoo5JfzsNOxn/Y5v+e1x/wB/
+TR9jm/57XH/f01oUUckv52GnYz/sc3/Pa4/7+mj7HN/z2uP+/prQoo5JfzsNOxn/AGOb/ntcf9/T
+R9jm/wCe1x/39NaFFHJL+dhp2M/7HN/z2uP+/po+xzf89rj/AL+mtCijkl/Ow07Gf9jm/wCe1x/3
+9NH2Ob/ntcf9/TWhRRyS/nYadjP+xzf89rj/AL+mj7HN/wA9rj/v6a0KKOSX87DTsZ/2Ob/ntcf9
+/TR9jm/57XH/AH9NaFFHJL+dhp2M/wCxzf8APa4/7+mj7HN/z2uP+/prQoo5JfzsNOxn/Y5v+e1x
+/wB/TR9jm/57XH/f01oUUckv52GnYz/sc3/Pa4/7+mj7HN/z2uP+/prQoo5JfzsNOxn/AGOb/ntc
+f9/TR9jm/wCe1x/39NaFFHJL+dhp2M/7HN/z2uP+/po+xzf89rj/AL+mtCijkl/Ow07Gf9jm/wCe
+1x/39NH2Ob/ntcf9/TWhRRyS/nYadjP+xzf89rj/AL+mitCijkl/Ow07BRRRWggooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+gooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="e3007367-5917-4616-b106-36e8901ecf78">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="23ff739d-3daa-4030-b76e-25d64637451c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1f787bea-3f17-410d-8158-87a941bdcbef"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome' and @class='Chrome_WidgetWin_1' and @instance='0']/container[@accessiblename&gt;'Pega Case Manager Portal -']/container/container[1]
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="47;14"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e1be57f2-c97e-408c-8592-331bd0ccf0c3"
+		sx="1287"
+		sy="698"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="957c24ba-66d5-4078-b172-5189085310f9"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//button[text()='Continue' and @name='pyCaseActionAreaButtons_pyWorkPage_18']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="d8c4034f-596c-4755-95c6-cc2d7e4fcd20"
+	name="SubmissionCase_E2ERepository"
+	relativepath="SubmissionCase_E2ERepository.rxrep">
+		<codegen
+		classname="SubmissionCase_E2ERepository"
+		namespace="SubmissionCase_E2E">
+		</codegen>
+		<rootfolder
+		id="edc9576f-e82e-4618-86bf-a3926f9358cd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Adverse_Other_Information.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

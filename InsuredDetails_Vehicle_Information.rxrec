@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a83c2f1e-a2a6-4806-a724-e1e4a5c7de17"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InsuredDetails_Vehicle_Information"
+	namespace="SubmissionCase_E2E">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c69b7259-156a-48fb-9cb3-f617b37be66f"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e893e89e-47f5-40d7-9468-7ffba3661c36"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pVehicleInfo$pHaveVINNumber']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<keysequenceitem
+		KeySequence="ID_VI_LicensePlate"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="725594a8-0b17-4b23-8e9b-2c31c9981840">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4ce901db-736a-4d85-9006-f8adcfac3297"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="93,509,185,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						leftJustifyStyle
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						LicensePlate
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						$PpyWorkPage$pInsuredInfo$pVehicleInfo$pLicensePlate
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-template"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-test-id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@caption='Pega Case Manager Portal' and @page='!STANDARD' and @path='/prweb/Han6hz33OT_Z0LQfubLSJZ1APESeLOCT*/!STANDARD']//iframe[#'PegaGadget1Ifr']//input[#'LicensePlate']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="06a7e3a5-0df4-49fb-a352-f55bf993145f">
+				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
+RQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
+			</helperscreenshot>
+		</keysequenceitem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9c1a042c-2f07-4c50-91cf-f5d83340fa9f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="118e5529-f14d-41d2-86d8-1b8a768ec41e"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@caption='Pega Case Manager Portal' and @page='!STANDARD' and @path='/prweb/Han6hz33OT_Z0LQfubLSJZ1APESeLOCT*/!STANDARD']//iframe[#'PegaGadget1Ifr']//select[@id='LicensePlateState' and @name='$PpyWorkPage$pInsuredInfo$pVehicleInfo$pLicensePlateState']
+				</path>
+			</info>
+			<AttributeValue>
+				MA
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="456bcc8f-ac90-45d1-88b3-dce8432fb300">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d9b296c4-a6f6-484c-9588-0954a2be8a7f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@data-test-id='201801040502270000649998']
+				</path>
+			</info>
+			<AttributeValue>
+				2014
+			</AttributeValue>
+		</setvaluerecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6f890463-2295-4620-b326-eb3579147de7"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="088ef9ce-ff35-4e3a-950b-6039ae01587c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@data-test-id='201801040502270001650885']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="Volkswagen"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="c75959e3-00e9-44b9-bdd1-865068e41dcb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="088ef9ce-ff35-4e3a-950b-6039ae01587c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@data-test-id='201801040502270001650885']
+				</path>
+			</info>
+		</keysequenceitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<keysequenceitem
+		KeySequence="{Down}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		repoItemActivation="EnsureVisible"
+		searchpropertyid="dae90d62-9526-43ab-9471-51c9906be31f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="588ac380-2728-42b3-b0d3-4d50e17ebbcb"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9b7c8690-4e80-47a5-8b51-a01651186324"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//span[@class='match-highlight' and text()='Volkswagen']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="724fcdf3-0e19-4ea2-aceb-528949bdde02">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="23ff739d-3daa-4030-b76e-25d64637451c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1f787bea-3f17-410d-8158-87a941bdcbef"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome' and @class='Chrome_WidgetWin_1' and @instance='0']/container[@accessiblename&gt;'Pega Case Manager Portal -']/container/container[1]
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="40;14"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="30e7c9e2-e475-40e4-85fa-709584ad4d1f"
+		sx="1280"
+		sy="698"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="008dcb6f-bc29-4773-951b-a2f6d98da603"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//button[text()='Continue' and @name='pyCaseActionAreaButtons_pyWorkPage_18']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="d8c4034f-596c-4755-95c6-cc2d7e4fcd20"
+	name="SubmissionCase_E2ERepository"
+	relativepath="SubmissionCase_E2ERepository.rxrep">
+		<codegen
+		classname="SubmissionCase_E2ERepository"
+		namespace="SubmissionCase_E2E">
+		</codegen>
+		<rootfolder
+		id="edc9576f-e82e-4618-86bf-a3926f9358cd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InsuredDetails_Vehicle_Information.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

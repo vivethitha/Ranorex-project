@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.6m"
+		durationms="157824"
+		type="root"
+		rid="a198eb7f9b8d70c"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SB00086"
+		rxversion="9.2.0.0"
+		host="SBRDT049"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1366x768"
+		timestamp="18-10-2019 12:28:47"
+		timestampiso="2019-10-18T06:58:47"
+		endtime="18-10-2019 12:31:25"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Arbitration_Information">
+		<detail>
+			Arbitration_Information
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.824"
+			timeRelativeToTestModuleStartTime="00:02.824"
+			timeWallClock="12:28:50"
+			time="00:02.824"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Product
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.841"
+			timeRelativeToTestModuleStartTime="00:02.841"
+			timeWallClock="12:28:50"
+			time="00:02.841"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Product' with focus on 'ApplicationUnderTest.ProductName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pArbitrationInfo$l1$pClientCode']"
+				itempath=".//select[@name='$PpyWorkPage$pArbitrationInfo$l1$pClientCode']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.ProductName"
+				id="e53fd9c8a6f84113a0a4f07aa2887d35"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.344"
+			timeRelativeToTestModuleStartTime="00:08.344"
+			timeWallClock="12:28:55"
+			time="00:08.344"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.InsuranceList' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.051"
+			timeRelativeToTestModuleStartTime="00:13.051"
+			timeWallClock="12:29:00"
+			time="00:13.051"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}' with focus on 'ApplicationUnderTest.InsuranceList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.286"
+			timeRelativeToTestModuleStartTime="00:17.286"
+			timeWallClock="12:29:04"
+			time="00:17.286"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}' with focus on 'ApplicationUnderTest.InsuranceList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.691"
+			timeRelativeToTestModuleStartTime="00:21.691"
+			timeWallClock="12:29:08"
+			time="00:21.691"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'ApplicationUnderTest.InsuranceList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="115"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.957"
+			timeRelativeToTestModuleStartTime="00:25.957"
+			timeWallClock="12:29:13"
+			time="00:25.957"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'ApplicationUnderTest.InsuranceList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="119"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.314"
+			timeRelativeToTestModuleStartTime="00:30.314"
+			timeWallClock="12:29:17"
+			time="00:30.314"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'ApplicationUnderTest.InsuranceList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="123"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:37.813"
+			timeRelativeToTestModuleStartTime="02:37.813"
+			timeWallClock="12:31:25"
+			time="02:37.813"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

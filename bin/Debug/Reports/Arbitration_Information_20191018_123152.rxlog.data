@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="16.27s"
+		durationms="16268"
+		type="root"
+		rid="126d50dce964320"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SB00086"
+		rxversion="9.2.0.0"
+		host="SBRDT049"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1366x768"
+		timestamp="18-10-2019 12:31:55"
+		timestampiso="2019-10-18T07:01:55"
+		endtime="18-10-2019 12:32:11"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Arbitration_Information">
+		<detail>
+			Arbitration_Information
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.814"
+			timeRelativeToTestModuleStartTime="00:02.814"
+			timeWallClock="12:31:58"
+			time="00:02.814"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Product
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.831"
+			timeRelativeToTestModuleStartTime="00:02.831"
+			timeWallClock="12:31:58"
+			time="00:02.831"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Product' with focus on 'ApplicationUnderTest.ProductName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pArbitrationInfo$l1$pClientCode']"
+				itempath=".//select[@name='$PpyWorkPage$pArbitrationInfo$l1$pClientCode']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.ProductName"
+				id="e53fd9c8a6f84113a0a4f07aa2887d35"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.226"
+			timeRelativeToTestModuleStartTime="00:08.226"
+			timeWallClock="12:32:03"
+			time="00:08.226"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '$Product' on item 'ApplicationUnderTest.ProductName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pArbitrationInfo$l1$pClientCode']"
+				itempath=".//select[@name='$PpyWorkPage$pArbitrationInfo$l1$pClientCode']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.ProductName"
+				id="e53fd9c8a6f84113a0a4f07aa2887d35"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.158"
+			timeRelativeToTestModuleStartTime="00:11.158"
+			timeWallClock="12:32:06"
+			time="00:11.158"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.InsuranceList' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

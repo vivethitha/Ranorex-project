@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="374c9e88-7249-446b-b73a-40d27a5542f6"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InsuredDetails_Company_Information"
+	namespace="SubmissionCase_E2E">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="be868d62-b6b0-4d55-8a2c-3d0f3f2c5272">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fee355c5-aa3f-4036-8e60-c4d307ba348d"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@caption='Pega Case Manager Portal' and @page='!STANDARD' and @path='/prweb/Han6hz33OT_Z0LQfubLSJZ1APESeLOCT*/!STANDARD']//iframe[#'PegaGadget1Ifr']//select[@id='CompName' and @name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pCompName']
+				</path>
+			</info>
+			<AttributeValue>
+				NATIONAL UNITY INSURANCE CO
+			</AttributeValue>
+		</setvaluerecorditem>
+		<keysequenceitem
+		KeySequence="ID_CI_PolicyNumber"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bf728a15-67f7-47c2-afcc-16935137cb69">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="30ce925b-b477-4b36-8bcf-87348a9c448c"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="93,429,402,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						leftJustifyStyle
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PolicyNumber
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPolicyNumber
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-template"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-test-id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@caption='Pega Case Manager Portal' and @page='!STANDARD' and @path='/prweb/Han6hz33OT_Z0LQfubLSJZ1APESeLOCT*/!STANDARD']//iframe[#'PegaGadget1Ifr']//input[#'PolicyNumber']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="f413082b-a655-4932-9c4c-1b5e952423d1">
+				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
+C3mJ9rtv+fiH/vsUfa7b/n4h/wC+xS+S/wDz1ajyX/56tR7SX8j+9BbzE+123/PxD/32KPtdt/z8
+Q/8AfYpfJf8A56tR5L/89Wo9pL+R/egt5ifa7b/n4h/77FH2u2/5+If++xS+S/8Az1ajyX/56tR7
+SX8j+9BbzE+123/PxD/32KPtdt/z8Q/99il8l/8Anq1Hkv8A89Wo9pL+R/egt5ifa7b/AJ+If++x
+R9rtv+fiH/vsUvkv/wA9Wo8l/wDnq1HtJfyP70FvMT7Xbf8APxD/AN9ij7Xbf8/EX4OKXyX/AOer
+UeS//PVqPaS/kf3oLeZCuTJ5hBAkk3AEYOMAf0qaL/WzDvuB/DaP8KBCdwJkJwc8054kcgsDkdwS
+D+YpQ5nKUpK1wdrJIfRUfkJ6yf8Afxv8aPIT1k/7+N/jWoiSio/IT1k/7+N/jR5Cesn/AH8b/GgC
+Sio/IT1k/wC/jf40UAczpf8AyEIvqf5Gulj++K5rS/8AkIRfU/yNdLH98VrV3M6exLRRRWRoFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAcrpf/IQi+p/ka6WP74oorWruZ09iWiiisjQKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//9k=
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bffe5f45-d5a8-45bb-9737-5c69cda8a115">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<explicitdelayitem
+		duration="500ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<keysequenceitem
+		KeySequence="ID_CI_ClaimNumber"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="66fe5dea-e50e-4835-9efb-b24ece841384">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4379b595-d4b2-44ca-8b3d-9e3a24bdd609"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="502,430,402,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						leftJustifyStyle
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ClaimNumber
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pClaimNumber
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-template"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-test-id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@caption='Pega Case Manager Portal' and @page='!STANDARD' and @path='/prweb/Han6hz33OT_Z0LQfubLSJZ1APESeLOCT*/!STANDARD']//iframe[#'PegaGadget1Ifr']//input[#'ClaimNumber']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bffe5f45-d5a8-45bb-9737-5c69cda8a115">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<explicitdelayitem
+		duration="500ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<keysequenceitem
+		KeySequence="ID_CI_ContactNumber"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bffe5f45-d5a8-45bb-9737-5c69cda8a115">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="86db5c21-8279-47eb-a63c-c6d24dd56bfa"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget2Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pName']
+				</path>
+			</info>
+		</keysequenceitem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="1e50e205-0c1c-48bf-9fc9-49937d4fd7c5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3ceb793e-2591-4d71-b363-1142833d37cd"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget2Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pAddressInfo$pUSStateCode']
+				</path>
+			</info>
+			<AttributeValue>
+				OH
+			</AttributeValue>
+		</setvaluerecorditem>
+		<keysequenceitem
+		KeySequence="ID_CI_Address1"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bffe5f45-d5a8-45bb-9737-5c69cda8a115">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9368b1bc-43ac-44e5-885e-f09b19b4e675"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget2Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pAddressInfo$pAddressLine1']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="ID_CI_Address2"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bffe5f45-d5a8-45bb-9737-5c69cda8a115">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf4865e7-4224-4940-85c3-429f4fde2a4c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget2Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pAddressInfo$pAddressLine2']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="ID_CI_City"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bffe5f45-d5a8-45bb-9737-5c69cda8a115">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dd42e125-a2a0-4f7e-988c-155efd0981b5"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget2Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pAddressInfo$pcity']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="40006"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bffe5f45-d5a8-45bb-9737-5c69cda8a115">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b1b0ae6e-a20a-4ad5-800c-850986f5d0fd"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget2Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pAddressInfo$pZipCode']
+				</path>
+			</info>
+		</keysequenceitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="23ff739d-3daa-4030-b76e-25d64637451c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1f787bea-3f17-410d-8158-87a941bdcbef"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome' and @class='Chrome_WidgetWin_1' and @instance='0']/container[@accessiblename&gt;'Pega Case Manager Portal -']/container/container[1]
+				</path>
+			</info>
+		</loggingrecorditem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bffe5f45-d5a8-45bb-9737-5c69cda8a115">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bffe5f45-d5a8-45bb-9737-5c69cda8a115">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3364b9ad-77ff-46d4-b47b-f87ff1c0a869">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d1c03fd6-7362-439b-8f60-6842a8ad73a7"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="selecttag"
+				rect="161,840,120,45"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						c4fd6f1e
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneUseType
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneUseType']
+				</path>
+			</info>
+			<AttributeValue>
+				Business
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3364b9ad-77ff-46d4-b47b-f87ff1c0a869">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8f61f091-11ce-4133-81d5-1648c38ef0f0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneType']
+				</path>
+			</info>
+			<AttributeValue>
+				Cell
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3364b9ad-77ff-46d4-b47b-f87ff1c0a869">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e12fadbc-b310-4708-96ff-7f22f6bf5258"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneSource']
+				</path>
+			</info>
+			<AttributeValue>
+				Caller ID
+			</AttributeValue>
+		</setvaluerecorditem>
+		<keysequenceitem
+		KeySequence="9500095012"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="37584f9d-419e-4110-9a6e-25176fb70fce">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="60d1d2a8-06b3-4c4e-9f8c-70301295aada"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneNumber']
+				</path>
+			</info>
+		</keysequenceitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="23ff739d-3daa-4030-b76e-25d64637451c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1f787bea-3f17-410d-8158-87a941bdcbef"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome' and @class='Chrome_WidgetWin_1' and @instance='0']/container[@accessiblename&gt;'Pega Case Manager Portal -']/container/container[1]
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="52;15"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="bf56074b-9483-4f51-9dd0-9b6b40acce6d"
+		sx="1292"
+		sy="699"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="008dcb6f-bc29-4773-951b-a2f6d98da603"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//button[text()='Continue' and @name='pyCaseActionAreaButtons_pyWorkPage_18']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="d8c4034f-596c-4755-95c6-cc2d7e4fcd20"
+	name="SubmissionCase_E2ERepository"
+	relativepath="SubmissionCase_E2ERepository.rxrep">
+		<codegen
+		classname="SubmissionCase_E2ERepository"
+		namespace="SubmissionCase_E2E">
+		</codegen>
+		<rootfolder
+		id="edc9576f-e82e-4618-86bf-a3926f9358cd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InsuredDetails_Company_Information.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

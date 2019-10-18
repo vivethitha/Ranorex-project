@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="41.59s"
+		durationms="41591"
+		type="root"
+		rid="b9104b956ebebe9"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SB00086"
+		rxversion="9.2.0.0"
+		host="SBRDT049"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1366x768"
+		timestamp="18-10-2019 12:42:24"
+		timestampiso="2019-10-18T07:12:24"
+		endtime="18-10-2019 12:43:06"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Arbitration_Information">
+		<detail>
+			Arbitration_Information
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.924"
+			timeRelativeToTestModuleStartTime="00:02.924"
+			timeWallClock="12:42:27"
+			time="00:02.924"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Product
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.941"
+			timeRelativeToTestModuleStartTime="00:02.941"
+			timeWallClock="12:42:27"
+			time="00:02.941"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Product' with focus on 'ApplicationUnderTest.ProductName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pArbitrationInfo$l1$pClientCode']"
+				itempath=".//select[@name='$PpyWorkPage$pArbitrationInfo$l1$pClientCode']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.ProductName"
+				id="e53fd9c8a6f84113a0a4f07aa2887d35"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.350"
+			timeRelativeToTestModuleStartTime="00:08.350"
+			timeWallClock="12:42:33"
+			time="00:08.350"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '$Product' on item 'ApplicationUnderTest.ProductName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pArbitrationInfo$l1$pClientCode']"
+				itempath=".//select[@name='$PpyWorkPage$pArbitrationInfo$l1$pClientCode']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.ProductName"
+				id="e53fd9c8a6f84113a0a4f07aa2887d35"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.487"
+			timeRelativeToTestModuleStartTime="00:11.487"
+			timeWallClock="12:42:36"
+			time="00:11.487"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.InsuranceList' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.518"
+			timeRelativeToTestModuleStartTime="00:16.518"
+			timeWallClock="12:42:41"
+			time="00:16.518"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}' with focus on 'ApplicationUnderTest.InsuranceList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.857"
+			timeRelativeToTestModuleStartTime="00:20.857"
+			timeWallClock="12:42:45"
+			time="00:20.857"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}' with focus on 'ApplicationUnderTest.InsuranceList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.577"
+			timeRelativeToTestModuleStartTime="00:25.577"
+			timeWallClock="12:42:50"
+			time="00:25.577"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'ApplicationUnderTest.InsuranceList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="115"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.949"
+			timeRelativeToTestModuleStartTime="00:29.949"
+			timeWallClock="12:42:54"
+			time="00:29.949"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'ApplicationUnderTest.InsuranceList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="119"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.235"
+			timeRelativeToTestModuleStartTime="00:34.235"
+			timeWallClock="12:42:59"
+			time="00:34.235"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'ApplicationUnderTest.InsuranceList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				itempath=".//input[@id='9860d127' and @data-target='$PpyWorkPage$pArbitrationInfo$l1$pInsuranceList']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.InsuranceList"
+				id="1e582375f7d04081886243030958ce2b"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="123"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.608"
+			timeRelativeToTestModuleStartTime="00:38.608"
+			timeWallClock="12:43:03"
+			time="00:38.608"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 60;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//button[text()='Continue' and @name='pyCaseActionAreaButtons_pyWorkPage_18']"
+				itempath=".//iframe[#'PegaGadget1Ifr']//button[text()='Continue' and @name='pyCaseActionAreaButtons_pyWorkPage_18']"
+				fullname="SubmissionCase_E2ERepository.ApplicationUnderTest.SubmitButton1"
+				id="957c24ba66d54078b1725189085310f9"
+				timeout="60000"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="127"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.576"
+			timeRelativeToTestModuleStartTime="00:39.576"
+			timeWallClock="12:43:04"
+			time="00:39.576"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="d:\SBRDT049\Afni-Subro\Sprint-1\Ranorex\SubmissionCase_E2E_18-10-2019\SubmissionCase_E2E\Arbitration_Information.cs"
+				codeline="131"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

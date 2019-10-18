@@ -1,0 +1,11 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="SubmissionCase_E2E.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="SubmissionCase_E2E.rxtst" />
+    <Element value="ClaimInformation_Screen_Arb.rxrec" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>
